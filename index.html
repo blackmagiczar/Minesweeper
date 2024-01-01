@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title>Minesweeper</title>
+</head>
+<body>
+  <h3 class="title">Minesweeper</h3>
+  <div class="subtext" id="sub">
+    Mines Left: <span mine-count></span>
+  </div>
+  <div class="board" id="board"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineCleaner</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>Navigation</nav>
+
+    <div id="game">
+        <div id="board">
+            <table id="it">
+                <thead>MineCleaner</thead>
+                <br>
+                <br>
+                <br>
+
+                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>StackOverflow test bed</title>
+    <script type="text/javascript">
+        function drawGrid() {
+            var cnv = document.getElementById("cnv");
+
+            var gridOptions = {
+                minorLines: {
+                    separation: 5,
+                    color: '#00FF00'
+                },
+                majorLines: {
+                    separation: 30,
+                    color: '#FF0000'
+                }
+            };
+
+            drawGridLines(cnv, gridOptions.minorLines);
+            drawGridLines(cnv, gridOptions.majorLines);
+
+            return;
+        }
+
+        function drawGridLines(cnv, lineOptions) {
+
+
+            var iWidth = cnv.width;
+            var iHeight = cnv.height;
+
+            var ctx = cnv.getContext('2d');
+
+            ctx.strokeStyle = lineOptions.color;
+            ctx.strokeWidth = 1;
+
+            ctx.beginPath();
+
+            var iCount = null;
+            var i = null;
+            var x = null;
+            var y = null;
+
+            iCount = Math.floor(iWidth / lineOptions.separation);
+
+            for (i = 1; i <= iCount; i++) {
+                x = (i * lineOptions.separation);
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, iHeight);
+                ctx.stroke();
+            }
+
+
+            iCount = Math.floor(iHeight / lineOptions.separation);
+
+            for (i = 1; i <= iCount; i++) {
+                y = (i * lineOptions.separation);
+                ctx.moveTo(0, y);
+                ctx.lineTo(iWidth, y);
+                ctx.stroke();
+            }
+
+            ctx.closePath();
+
+            return;
+        }
+
+    </script>
+</head>
+<body onload="drawGrid()">
+    <canvas id="cnv" width="500" height="500"></canvas>
+</body>
+</html>
+ -->
