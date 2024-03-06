@@ -51,7 +51,7 @@ function positionMatch(a,b) {
 
 //everything below is executed after DOM loads
 window.onload = init;
-const BoardSize = 20;
+const BoardSize = 10;
 const Mines = Math.floor(BoardSize*BoardSize*0.1);
 //const Mines=5;
 //display Grid
